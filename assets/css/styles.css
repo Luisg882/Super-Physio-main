@@ -15,8 +15,32 @@ body {
 
 header {
     background-color: springgreen;
+    display: flex;
 }
 
+/* Nav Bar button */
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+#nav-bar {
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+#nav-toggle:checked + #nav-bar {
+    display: block;
+}
 /* Main */
 
 main {
