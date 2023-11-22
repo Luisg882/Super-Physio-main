@@ -15,7 +15,11 @@ body {
 
 header {
     background-color: springgreen;
+    position: fixed;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /* Nav Bar button */
@@ -29,13 +33,19 @@ header {
     padding: 10px;
     background-color: #3498db;
     color: #fff;
+    align-self: flex-end;
 }
 
 #nav-bar {
+    position: absolute;
     display: none;
     padding: 10px;
     background-color: #333;
     color: #fff;
+    left: 0;
+    padding-top: 0 1rem;
+    width: 100%;
+    margin-top: 38px;
 }
 
 #nav-toggle:checked + #nav-bar {
