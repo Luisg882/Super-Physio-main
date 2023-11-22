@@ -1,0 +1,31 @@
+/* General styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+header {
+    background-color: springgreen;
+}
+
+/* Main */
+
+main {
+    background-color: blueviolet;
+    flex: 1 0 auto; 
+}
+
+/* Footer */
+
+footer {
+    background-color: brown;
+}
