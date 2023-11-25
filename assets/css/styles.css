@@ -1,26 +1,36 @@
+/* imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Quicksand:wght@300&display=swap');
+
 /* General styling */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Nunito', sans-serif;
 }
 
+h2, h3 {
+    
+    font-family: "Nunito", sans-serif;
+}
 /* Header */
 
 header {
-    background-color: springgreen;
+    background-color: #fff;
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     flex-basis: 10px;
+    border-bottom: solid;
 }
 
 #logo {
@@ -31,6 +41,17 @@ header {
 
 header > h1 {
     margin-left: 45px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+/* Physioterapy backgorund that covers the header and part of the main */
+
+#physio-background {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 270px;
 }
 /* Nav Bar button */
 
@@ -41,8 +62,6 @@ header > h1 {
 #nav-button {
     cursor: pointer;
     padding: 10px;
-    background-color: #3498db;
-    color: #fff;
     align-self: flex-end;
 }
 
@@ -50,12 +69,16 @@ header > h1 {
     position: absolute;
     display: none;
     padding: 10px;
-    background-color: #333;
-    color: #fff;
-    left: 0;
     padding-top: 0 1rem;
     width: 100%;
     margin-top: 38px;
+    background-color: #fff;
+    border-bottom: solid;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #nav-toggle:checked + #nav-bar {
@@ -64,10 +87,25 @@ header > h1 {
 /* Main */
 
 main {
-    background-color: blueviolet;
     flex: 1 0 auto; 
     margin-top: 38px;
 }
+
+#introduction {
+    text-align: center;
+    background-image: url("../Images/manual-therapy.webp") ;
+    background-size: 100% 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+#description {
+    position: absolute;
+    top: 200px;
+    color: #fff;
+}
+
 
 /* Footer */
 
