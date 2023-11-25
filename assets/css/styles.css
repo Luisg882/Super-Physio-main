@@ -20,8 +20,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    flex-basis: 10px;
 }
 
+#logo {
+    height: 100%;
+    width: 45px;
+    position: absolute;
+}
+
+header > h1 {
+    margin-left: 45px;
+}
 /* Nav Bar button */
 
 #nav-toggle {
@@ -56,6 +66,7 @@ header {
 main {
     background-color: blueviolet;
     flex: 1 0 auto; 
+    margin-top: 38px;
 }
 
 /* Footer */
