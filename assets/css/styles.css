@@ -17,8 +17,11 @@ body {
 }
 
 h2, h3 {
-    
     font-family: "Nunito", sans-serif;
+}
+
+hr {
+    border-top: 3px solid rgb(173, 25, 25);
 }
 /* Header */
 
@@ -91,6 +94,8 @@ main {
     margin-top: 38px;
 }
 
+/* Introduction section */
+
 #introduction {
     text-align: center;
     background-image: url("../Images/manual-therapy.webp") ;
@@ -106,6 +111,29 @@ main {
     color: #fff;
 }
 
+/* Services and pricing */
+
+#manual-therapy {
+    text-align: center;
+}
+
+#therapeutic-exercise {
+    text-align: end;
+}
+
+#services-pricing   div  h3 {
+    border-bottom: red;
+}
+
+/* Table styling */
+
+#therapeutic-exercise-prices {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: solid
+}
 
 /* Footer */
 
