@@ -36,12 +36,12 @@ header {
 
 #logo {
     height: 100%;
-    width: 45px;
+    width: 55px;
     position: absolute;
 }
 
 header > h1 {
-    margin-left: 45px;
+    margin-left: 55px;
     font-family: 'Quicksand', sans-serif;
     
 }
@@ -125,6 +125,10 @@ main {
 
 
 /* Services and pricing */
+
+#services-pricing {
+    margin-top: 20px;
+}
 
 #services-pricing hr {
     border-top: 3px solid rgb(173, 25, 25);
