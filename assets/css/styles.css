@@ -123,6 +123,59 @@ main {
     padding-left: 10px;
 }
 
+/* Pain section */
+
+#pain {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#pain-description {
+    background-color: #29b267a9; 
+    color: #ffd700;   
+    border-radius: 10%;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+#pain p {
+    margin-top: 5px;
+    color: #e1e6e1; 
+}
+
+#back-pain {
+    margin-top: 15px;
+    width: 100%;
+    height: 300px;
+}
+
+/* Therapeutic exercise section */
+
+#exercise {
+    margin-top: 10px;
+}
+
+#exercise h2 {
+    color: #F4BF96;
+}
+
+#exercise p {
+    color: #FCF5ED;
+}
+
+#therapeutic-exercise-description {
+    background-color: #CE5A67;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    padding: 5px 5px;
+}
+
+#texercise-image {
+    margin-top: 15px;
+    width: 100%;
+    height: 300px;
+}
 
 /* Services and pricing */
 
