@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Meta data -->
+        <meta name="description" content="Super Physio. Physioterapy practice on Newcastle Upon tyne, UK. Manula therapy and sports therapy">
+        <meta name="keywords" content="Physioterapy practice, Injury, Newcastle Upon tyne, UK, Rehabilitation, Manual Therapy, Sports therapy, sports">
+        <!-- Title --> 
+        <title>Super Fisio</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/jpg" href="assets/images/Logo.jpg">
+        <!-- Css Style link -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <!--Physio Background image that covers the header and part of the main -->
+            
+            <img src="assets/Images/Logo.jpg" alt="Super Physio logo" id="logo">
+            <h1>SuperPhysio</h1>
+            <!-- Checkbox button to display the navigation bar-->
+            <label for="nav-toggle" id="nav-button"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" name="nav-toggle" id="nav-toggle">
+            <!-- Navigation bar -->
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services-and-prices.html">Services and pricing</a></li>
+                    <li><a href="">Book Now</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Main -->
+        <main>
+            <section id="booking">
+                <form action="https://formdump.codeinstitute.net" id="booking-form" method="post">
+                    <label for="fname">Fisrt Name:</label>
+                    <input type="text" name="fname" id="fname">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" id="lname">
+                    <label for="mobile">Mobile number: </label>
+                    <input type="number" name="mobile" id="mobile">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                    <div id="type-of-appoinment">
+                        <label for="button-diagnostic">Diagostic</label>
+                        <input type="radio" name="appointment" id="button-diagnostic">
+                        <label for="button-physioterapy-session">Physioterapy</label>
+                        <input type="radio" name="appointment" id="button-physioterapy-session">
+                        <label for="button-therapeutic-exercise">Therapeutic Excersise</label>
+                        <input type="radio" name="appointment" id="button-therapeutic-exercise">
+                    </div>
+                    <label for="booking-date">Apoinment's day:</label>
+                    <input type="date" name="booking-date" id="booking-date">
+                    <label for="patient-description">Give a litle description of the reason of your appoinment (optional)</label>
+                    <textarea name="Breave description" id="patient-description" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Book!">
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <section id="contact">
+                <h3>Contact:</h3>
+                <ul>
+                    <li>Email <i class="fa-solid fa-envelope"></i>: superphysio@gmail.com</li>
+                    <li>Phone <i class="fa-solid fa-phone"></i>: 01286583325</li>
+                    <li>Location <i class="fa-solid fa-location-dot"></i>: 17 Northumbria house, North Shields,<br> NE30 1AH</li>
+                </ul>
+            </section>
+            <section id="time">
+                <h3>Opening times <i class="fa-solid fa-clock"></i>:</h3>
+                <ul>
+                    <li>Monday: 8am - 4pm</li>
+                    <li>Tuesday: 10am - 6pm</li>
+                    <li>Wensday: 12pm - 6pm</li>
+                    <li>Thursday: 8am - 4pm</li>
+                    <li>Friday: 8am - 4pm</li>
+                </ul>
+            </section>
+            <section id="social-media">
+                <h3>Follow us</h3>
+                <ul id="social-media-links">
+                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a></li>
+                </ul>
+            </section>
+        </footer>
+
+        <!-- Font awsome link -->
+        <script src="https://kit.fontawesome.com/3cc57474ff.js"
+         crossorigin="anonymous"></script>
+    </body>
+</html>
