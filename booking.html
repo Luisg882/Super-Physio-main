@@ -28,22 +28,24 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="services-and-prices.html">Services and pricing</a></li>
-                    <li><a href="">Book Now</a></li>
+                    <li><a href="booking.html">Book Now</a></li>
                 </ul>
             </nav>
         </header>
         <!-- Main -->
-        <main>
+        <main id="main-booking">
             <section id="booking">
                 <form action="https://formdump.codeinstitute.net" id="booking-form" method="post">
+                    <h2>Book with us <i class="fa-solid fa-heart-circle-plus"></i></h2>
                     <label for="fname">Fisrt Name:</label>
-                    <input type="text" name="fname" id="fname">
+                    <input type="text" name="fname" id="fname" class="inputs">
                     <label for="lname">Last Name:</label>
-                    <input type="text" name="lname" id="lname">
+                    <input type="text" name="lname" id="lname" class="inputs">
                     <label for="mobile">Mobile number: </label>
-                    <input type="number" name="mobile" id="mobile">
+                    <input type="number" name="mobile" id="mobile" class="inputs">
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" class="inputs">
+                    <h3>Type of session:</h3>
                     <div id="type-of-appoinment">
                         <label for="button-diagnostic">Diagostic</label>
                         <input type="radio" name="appointment" id="button-diagnostic">
@@ -53,26 +55,30 @@
                         <input type="radio" name="appointment" id="button-therapeutic-exercise">
                     </div>
                     <label for="booking-date">Apoinment's day:</label>
-                    <input type="date" name="booking-date" id="booking-date">
+                    <input type="date" name="booking-date" id="booking-date" class="inputs">
+                    <br>
                     <label for="patient-description">Give a litle description of the reason of your appoinment (optional)</label>
-                    <textarea name="Breave description" id="patient-description" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Book!">
+                    <br>
+                    <textarea name="Breave description" id="patient-description" cols="25" rows="5"></textarea>
+                    <br>
+                    <input type="submit" value="Book!" id="submit">
                 </form>
             </section>
         </main>
 
         <!-- Footer -->
         <footer>
-            <section id="contact">
-                <h3>Contact:</h3>
-                <ul>
-                    <li>Email <i class="fa-solid fa-envelope"></i>: superphysio@gmail.com</li>
-                    <li>Phone <i class="fa-solid fa-phone"></i>: 01286583325</li>
-                    <li>Location <i class="fa-solid fa-location-dot"></i>: 17 Northumbria house, North Shields,<br> NE30 1AH</li>
-                </ul>
-            </section>
-            <section id="time">
-                <h3>Opening times <i class="fa-solid fa-clock"></i>:</h3>
+            <section id="contact-time">
+                <div id="contact">
+                    <h3>Contact:</h3>
+                    <ul>
+                        <li>Email <i class="fa-solid fa-envelope"></i>: superphysio@gmail.com</li>
+                        <li>Phone <i class="fa-solid fa-phone"></i>: 01286583325</li>
+                        <li>Location <i class="fa-solid fa-location-dot"></i>: 17 Northumbria house,<br> North Shields, NE30 1AH</li>
+                    </ul>
+                </div>
+                <div id="time">
+                    <h3>Opening times <i class="fa-solid fa-clock"></i>:</h3>
                 <ul>
                     <li>Monday: 8am - 4pm</li>
                     <li>Tuesday: 10am - 6pm</li>
@@ -80,6 +86,7 @@
                     <li>Thursday: 8am - 4pm</li>
                     <li>Friday: 8am - 4pm</li>
                 </ul>
+                </div>
             </section>
             <section id="social-media">
                 <h3>Follow us</h3>

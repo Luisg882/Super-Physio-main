@@ -218,15 +218,51 @@ td, th {
 
 /* Booking */
 
-main {
+#main-booking {
+    margin-top: 20px;
     background: url("../Images/booking-background.webp") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#booking {
+    margin: 50px 20px;
+    background-color: rgb(60, 60, 60, 0.5);
+    color: #fff;
+}
+
+#booking-form {
+    margin: 5px 17px;
+}
+
+.inputs {
+    margin-bottom: 7px;
+}
+
+#type-of-appoinment {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7px;
+}
+
+#patient-description {
+    width: 100%;
+}
+
+#submit {
+    background-color: #57a742;
+    box-shadow: inset 0 0 10px #57a742;
+    height: 30px;
+    width: 45px;
+    border-radius: 5px;
+    margin-left: 83.5px;
 }
 /* Footer */
 
 footer {
     background-color: rgb(31, 196, 163);
     color: #080808;
-    font-size: xx-small;
 }
 
 footer h3 {
@@ -234,8 +270,39 @@ footer h3 {
     font-size: small;
 }
 
+footer li {
+    font-size: xx-small;
+}
+
+footer li a {
+    font-size: medium;
+}
+
 footer ul {
     margin: 5px 5px;
+}
+
+#contact-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contact {
+    flex-shrink: 30;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#time {
+    flex-shrink: 1;
+    list-style: none;
+}
+
+#time ul {
+    list-style: none;
 }
 
 #social-media-links {
@@ -244,3 +311,4 @@ footer ul {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
