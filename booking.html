@@ -22,10 +22,10 @@
             <h1>SuperPhysio</h1>
             <!-- Checkbox button to display the navigation bar-->
             <label for="nav-toggle" id="nav-button"><i class="fa-solid fa-bars"></i></label>
-            <input type="checkbox" name="nav-toggle" id="nav-toggle">
+            <input type="checkbox" name="nav-toggle" id="nav-toggle-label">
             <!-- Navigation bar -->
             <nav id="nav-bar">
-                <ul>
+                <ul id="menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="services-and-prices.html">Services and pricing</a></li>
                     <li><a href="booking.html">Book Now</a></li>
@@ -47,12 +47,12 @@
                     <input type="email" name="email" id="email" class="inputs">
                     <h3>Type of session:</h3>
                     <div id="type-of-appoinment">
-                        <label for="button-diagnostic">Diagostic</label>
                         <input type="radio" name="appointment" id="button-diagnostic">
-                        <label for="button-physioterapy-session">Physioterapy</label>
+                        <label for="button-diagnostic">Diagostic</label>                       
                         <input type="radio" name="appointment" id="button-physioterapy-session">
-                        <label for="button-therapeutic-exercise">Therapeutic Excersise</label>
+                        <label for="button-physioterapy-session">Physioterapy</label>
                         <input type="radio" name="appointment" id="button-therapeutic-exercise">
+                        <label for="button-therapeutic-exercise">Therapeutic Excersise</label>
                     </div>
                     <label for="booking-date">Apoinment's day:</label>
                     <input type="date" name="booking-date" id="booking-date" class="inputs">
@@ -71,7 +71,7 @@
             <section id="contact-time">
                 <div id="contact">
                     <h3>Contact:</h3>
-                    <ul>
+                    <ul id="contact-list">
                         <li>Email <i class="fa-solid fa-envelope"></i>: superphysio@gmail.com</li>
                         <li>Phone <i class="fa-solid fa-phone"></i>: 01286583325</li>
                         <li>Location <i class="fa-solid fa-location-dot"></i>: 17 Northumbria house,<br> North Shields, NE30 1AH</li>
@@ -79,7 +79,7 @@
                 </div>
                 <div id="time">
                     <h3>Opening times <i class="fa-solid fa-clock"></i>:</h3>
-                <ul>
+                <ul id="time-list">
                     <li>Monday: 8am - 4pm</li>
                     <li>Tuesday: 10am - 6pm</li>
                     <li>Wensday: 12pm - 6pm</li>
