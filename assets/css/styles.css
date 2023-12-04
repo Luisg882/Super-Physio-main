@@ -56,9 +56,10 @@ header > h1 {
 }
 /* Nav Bar button */
 
-#nav-toggle-label {
+#nav-toggle {
     display: none;
 }
+
 
 #nav-button {
     cursor: pointer;
