@@ -428,23 +428,165 @@ footer ul {
         justify-content: space-around;
     }
     /* Footer */
-    
+    li {
+        margin-right: 5px;
+    }
+
     #contact-time {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     #contact-list {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
     #time-list {
         display: flex;
+        justify-content: space-around;
     }
 
     #social-media-links {
         justify-content: space-around;
     }
+}
+
+/* Mediaquery for devices whider than 1200px */
+
+@media screen and (min-width: 1200px) {
+    /* Header */
+    header {
+        justify-content: space-evenly;
+        height: 120px;
+    }
+
+    header > h1 {
+        align-self: flex-end;
+    }
+
+    #nav-bar {
+        align-self: flex-end;
+    }
+
+    #logo {
+        width: 120px;
+    }
+
+    /* Home: main */
+
+    /* Introduction section */
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #introduction {
+        margin-top: 69px;
+    }
+
+    #description {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    /*Pain section */
+    #pain { 
+        justify-content: space-around;
+    }
+
+    #pain-description {
+        flex-shrink: 1;
+        border-radius: 20%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #back-pain {
+        flex-shrink: 1;
+        height: 400px;
+    }
+
+    /*Therapeutic exercise section */
+
+    #exercise {
+        margin-top: 20px;
+    }
+
+    #therapeutic-exercise-description {
+        align-self: center;
+        border-radius: 20%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px;
+    }
+
+    #texercise-image {
+        height: 350px;
+    }
+
+    /* Services and pricing:main */
+
+    #services-pricing {
+        margin-top: 95px;
+    }
+
+    #therapeutic-exercise-prices {
+        margin-top: 50px;
+    }
+
+    #physio {
+        margin-top: 50px;
+    }
+
+    /* Footer */
+
+    li {
+        margin-right: 10px;
+    }
+
+    #contact-time {
+        justify-content: space-evenly;
+    }
+
+    footer h3 {
+        text-align: center;
+        font-size: medium;
+    }
+    
+    footer li {
+        font-size: small;
+    }
+    
+    footer li a {
+        font-size: x-large;
+    }
+    
+    footer ul {
+        margin: 5px 5px;
+    }
+   
+}
+
+/* Madiaquery for devices whider than 1448px */
+
+@media screen and (min-width: 1448px) {
+    /* Home: main */
+
+    /* Introduction section */
+
+    #description {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    /* Pain section */
+
+    #back-pain {
+        height: 450px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
 }
