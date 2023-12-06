@@ -40,10 +40,9 @@ header {
     position: absolute;
 }
 
-header > h1 {
+#title {
     margin-left: 55px;
     font-family: 'Quicksand', sans-serif;
-    
 }
 
 /* Physioterapy backgorund that covers the header and part of the main */
@@ -457,23 +456,12 @@ footer ul {
 
 @media screen and (min-width: 1200px) {
     /* Header */
+    
     header {
-        justify-content: space-evenly;
-        height: 120px;
+        justify-content: space-around;
     }
 
-    header > h1 {
-        align-self: flex-end;
-    }
-
-    #nav-bar {
-        align-self: flex-end;
-    }
-
-    #logo {
-        width: 120px;
-    }
-
+    
     /* Home: main */
 
     /* Introduction section */
