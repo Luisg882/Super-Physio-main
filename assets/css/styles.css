@@ -192,12 +192,16 @@ main {
     border-top: 3px solid rgb(173, 25, 25);
 }
 
+#diagnostic {
+    text-align: center;
+}
+
 #manual-therapy {
     text-align: center;
 }
 
 #therapeutic-exercise {
-    text-align: end;
+    text-align: center;
 }
 
 #services-pricing   div  h3 {
@@ -207,6 +211,7 @@ main {
 /* Table styling */
 
 #therapeutic-exercise-prices {
+    margin-bottom: 10px;
     border-collapse: collapse;
     text-align: center;
 }
@@ -246,26 +251,34 @@ td, th {
 
 .inputs {
     margin-bottom: 7px;
+    height: 25px;
 }
 
 #type-of-appoinment {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin-bottom: 7px;
+}
+
+.radio-input {
+    margin-top: 10px;
 }
 
 #patient-description {
     width: 100%;
+    padding: 10px;
 }
 
 #submit {
-    background-color: #57a742;
-    box-shadow: inset 0 0 10px #57a742;
-    height: 30px;
-    width: 45px;
+    background-color:black;
+    color: #f1e5e5;
+    box-shadow: inset 0 0 10px #f8f8f8;
+    height: 40px;
+    width: 90px;
     border-radius: 5px;
-    margin-left: 83.5px;
+    margin-left: 20vw;
 }
+
 /* Footer */
 
 footer {
@@ -422,10 +435,6 @@ footer ul {
 
     #booking {
         width: 500px;
-    }
-
-    #submit {
-        margin-left: 50%;
     }
 
     #type-of-appoinment {
