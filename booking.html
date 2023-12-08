@@ -39,30 +39,30 @@
                 <form action="https://formdump.codeinstitute.net" id="booking-form" method="post">
                     <h2>Book with us <i class="fa-solid fa-heart-circle-plus"></i></h2>
                     <label for="fname">Fisrt Name:</label>
-                    <input type="text" name="fname" id="fname" class="inputs">
+                    <input type="text" name="fname" id="fname" class="inputs" required>
                     <label for="lname">Last Name:</label>
-                    <input type="text" name="lname" id="lname" class="inputs">
+                    <input type="text" name="lname" id="lname" class="inputs" required>
                     <label for="mobile">Mobile number: </label>
-                    <input type="number" name="mobile" id="mobile" class="inputs">
+                    <input type="number" name="mobile" id="mobile" class="inputs" required>
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" class="inputs">
+                    <input type="email" name="email" id="email" class="inputs" required>
                     <h3>Type of session:</h3>
-                    <div id="type-of-appoinment">
-                        <div>
-                            <input type="radio" name="appointment" class="radio-input">
+                    <div id="type-of-appoinment" name="appoinment-type" >
+                        <div class="radio-input">
+                            <input type="radio" name="appointment" class="radio-input" value="diagnostic" required>
                             <label for="button-diagnostic">Diagostic</label>
                         </div>
-                        <div>
-                            <input type="radio" name="appointment" class="radio-input">
+                        <div class="radio-input">
+                            <input type="radio" name="appointment" class="radio-input" value="physiotherapy">
                             <label for="button-physioterapy-session">Physioterapy</label>
                         </div>                 
-                        <div>
-                            <input type="radio" name="appointment" class="radio-input">
+                        <div class="radio-input">
+                            <input type="radio" name="appointment" class="radio-input" value="therapeutic-exercise">
                             <label for="button-therapeutic-exercise">Therapeutic Excersise</label>
                         </div>
                     </div>
                     <label for="booking-date">Apoinment's day:</label>
-                    <input type="date" name="booking-date" id="booking-date" class="inputs">
+                    <input type="date" name="booking-date" id="booking-date" class="inputs" required>
                     <br>
                     <label for="patient-description">Give a litle description of the reason of your appoinment (optional)</label>
                     <br>
