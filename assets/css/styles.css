@@ -286,18 +286,18 @@ footer {
 }
 
 footer h3 {
-    color: #f1e5e5;
+    color:black;
     text-align: center;
     font-size: small;
 }
 
 footer li {
-    color: #f1e5e5;
+    color: black;
     font-size: xx-small;
 }
 
 footer li a {
-    color: #f1e5e5;
+    color: black;
     font-size: medium;
 }
 
