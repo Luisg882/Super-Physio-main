@@ -206,7 +206,11 @@ main {
 
 #therapeutic-exercise {
     text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 #services-pricing   div  h3 {
     border-bottom: red;
@@ -240,14 +244,12 @@ td, th {
     justify-content: center;
 }
 
-#booking {
-    margin: 50px 20px;
-    background-color: rgb(60, 60, 60, 0.5);
-    color: #fff;
-    
-}
+
 
 #booking-form {
+    padding: 50px 20px;
+    background-color: rgb(60, 60, 60, 0.5);
+    color: #fff;
     margin: 5px 17px;
     display: flex;
     flex-direction: column;
@@ -271,6 +273,7 @@ td, th {
 #patient-description {
     width: 100%;
     padding: 10px;
+    margin-right: 5%;
 }
 
 #submit {
@@ -278,9 +281,8 @@ td, th {
     color: #f1e5e5;
     box-shadow: inset 0 0 10px #f8f8f8;
     height: 40px;
-    width: 90px;
+    width: 200px;
     border-radius: 5px;
-    margin-left: 20vw;
 }
 
 /* Footer */
@@ -330,6 +332,11 @@ footer ul {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+#time-list {
+    justify-content: space-evenly;
+}
+
 
 /* Media query for tablets (768 and up) */
 
@@ -418,13 +425,6 @@ footer ul {
         margin-top: 20px;
     }
 
-    #therapeutic-exercise {
-        margin-top: 20px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-    }
-
     #therapeutic-exercise-prices {
         margin: 0px 100px;
     }
@@ -441,20 +441,13 @@ footer ul {
     /* Booking: main section */
 
     .inputs {
-        width: 40%;;
-    }
-
-    #patient-description {
-        width: 466px;
+        width: 60%;;
     }
 
     #booking {
         width: 500px;
     }
 
-    #submit {
-        margin-left: 25vw;
-    }
     
     #type-of-appointment {
         justify-content: space-between;
@@ -462,6 +455,11 @@ footer ul {
     }
 
     /* Footer */
+
+    footer {
+        margin-top: 10px;
+    }
+
     li {
         margin-right: 5px;
     }
@@ -477,7 +475,19 @@ footer ul {
         justify-content: space-around;
     }
 
+    footer h3 {
+        text-align: center;
+        font-size: medium;
+    }
     
+    footer li {
+        font-size: small;
+    }
+    
+    footer li a {
+        font-size: x-large;
+    }
+
 }
 
 /* Mediaquery for devices whider than 1200px */
@@ -489,18 +499,27 @@ footer ul {
         justify-content: space-around;
     }
 
-    
-    
+    #name {
+        margin-right: 40vw;
+    }
+
     /* Home: main */
+
+    /* Injuty section */
+
+    .list-injuries {
+        margin-right: 10vw;
+    }
+    
+    #injuries-title {
+        margin-left: 5vw;
+        margin-right: 7vw;
+    }
 
     /* Introduction section */
     main {
         margin-left: 5%;
         margin-right: 5%;
-    }
-
-    #introduction {
-        margin-top: 69px;
     }
 
     /*Pain section */
@@ -524,6 +543,7 @@ footer ul {
 
     #exercise {
         margin-top: 20px;
+        margin-bottom: 30px;
     }
 
     #therapeutic-exercise-description {
@@ -538,42 +558,45 @@ footer ul {
         height: 350px;
     }
 
-    /* Services and pricing:main */
+    /* Services and pricing: main */
 
     #services-pricing {
-        margin-top: 95px;
+        margin-top: 50px;
+    }
+
+    #diagnostic {
+        margin-bottom: 50px;
+    }
+    
+    #manual-therapy {
+        margin-bottom: 50px;
     }
 
     #therapeutic-exercise-prices {
-        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #therapeutic-exercise-prices {
+        margin-top: 30px;
     }
 
     #physio {
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
+
+    /* Booking */
+
+
+    
     /* Footer */
 
     li {
         margin-right: 10px;
     }
 
-    #contact-time {
-        justify-content: space-evenly;
-    }
-
-    footer h3 {
-        text-align: center;
-        font-size: medium;
-    }
     
-    footer li {
-        font-size: small;
-    }
     
-    footer li a {
-        font-size: x-large;
-    }
     
     footer ul {
         margin: 5px 5px;
