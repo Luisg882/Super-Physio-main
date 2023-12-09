@@ -377,11 +377,12 @@ footer ul {
     #injury {
         margin-top: 20px;
         display: flex;
-        justify-content: space-around;
+        
     }
 
     #injuries {
         display: flex;
+        flex-wrap: wrap;
     }
 
     /* Pain section */
