@@ -123,25 +123,6 @@ main {
     padding-left: 10px;
 }
 
-/* Injuries */
-
-.fa-check {
-    color: #57a742;
-}
-
-#injuries {
-    list-style: none;
-}
-
-#injuries-title {
-    margin: 10px;
-}
-
-#injuries li {
-    margin-bottom: 5px;
-    margin-left: 8px;
-}
-
 /* Pain section */
 
 #pain {
@@ -372,19 +353,7 @@ footer ul {
         padding: 60px;
     }
 
-    /* Injury section */
-
-    #injury {
-        margin-top: 20px;
-        display: flex;
-        
-    }
-
-    #injuries {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
+    
     /* Pain section */
 
     #pain {
@@ -494,6 +463,13 @@ footer ul {
 /* Mediaquery for devices whider than 1200px */
 
 @media screen and (min-width: 1200px) {
+    /* General */
+
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
     /* Header */
     
     header {
@@ -501,27 +477,10 @@ footer ul {
     }
 
     #name {
-        margin-right: 40vw;
+        margin-right: 20vw;
     }
 
     /* Home: main */
-
-    /* Injuty section */
-
-    .list-injuries {
-        margin-right: 10vw;
-    }
-    
-    #injuries-title {
-        margin-left: 5vw;
-        margin-right: 7vw;
-    }
-
-    /* Introduction section */
-    main {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
 
     /*Pain section */
     #pain { 
@@ -586,18 +545,16 @@ footer ul {
     }
 
 
-    /* Booking */
-
-
-    
     /* Footer */
+
+    footer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
     li {
         margin-right: 10px;
     }
-
-    
-    
     
     footer ul {
         margin: 5px 5px;
