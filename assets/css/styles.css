@@ -129,6 +129,10 @@ main {
     color: #57a742;
 }
 
+#injuries {
+    list-style: none;
+}
+
 #injuries-title {
     margin: 10px;
 }
@@ -159,7 +163,7 @@ main {
 #back-pain {
     margin-top: 15px;
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 
 /* Therapeutic exercise section */
@@ -179,7 +183,7 @@ main {
 #texercise-image {
     margin-top: 15px;
     width: 100%;
-    height: 300px;
+    height: 250px;
 }
 
 /* Services and pricing */
@@ -254,7 +258,7 @@ td, th {
     height: 25px;
 }
 
-#type-of-appoinment {
+#type-of-appointment {
     display: flex;
     flex-direction: column;
     margin-bottom: 7px;
@@ -281,9 +285,7 @@ td, th {
 
 /* Footer */
 
-footer {
-    background-color: rgb(31, 196, 163);
-}
+
 
 footer h3 {
     color:black;
@@ -363,6 +365,18 @@ footer ul {
         padding: 60px;
     }
 
+    /* Injury section */
+
+    #injury {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #injuries {
+        display: flex;
+    }
+
     /* Pain section */
 
     #pain {
@@ -377,7 +391,7 @@ footer ul {
 
     #back-pain {
         flex-shrink: 1;
-        margin-top: 0px;
+        height: 275px;
     }
 
     /* Therapeutic exercise */
@@ -386,6 +400,7 @@ footer ul {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
+        margin-bottom: 10px;
     }
 
     #texercise-image {
@@ -416,7 +431,7 @@ footer ul {
 
     #physio {
         margin-top: 20px;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         margin-left: 10%;
         margin-right: 10%;
         width: 80%;
@@ -437,9 +452,15 @@ footer ul {
         width: 500px;
     }
 
-    #type-of-appoinment {
-        justify-content: space-around;
+    #submit {
+        margin-left: 25vw;
     }
+    
+    #type-of-appointment {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
     /* Footer */
     li {
         margin-right: 5px;
