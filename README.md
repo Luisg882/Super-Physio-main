@@ -9,7 +9,7 @@ All this information is divided in three different pages:
 -Services and Prices.
 -Book Now.
 
-![picture of a laptop, table, mobile and computer monitor showing SuperPhysio page](assets/images/responsive.jpg)
+![picture of a laptop, table, mobile and computer monitor showing SuperPhysio page](/assets/images/responsive.jpg)
 
 ## Features
 
@@ -27,7 +27,7 @@ All this information is divided in three different pages:
     - In this section we make a breafe introduction of the specialization of the practice so the patience will now exactlly the tipe of practice he is getting to.
     - A background image of a physiotherapist treating a patient giving a visual feed back of the treatment.
 
-![background of a therapist threating a knee and a green box in the meddle with the introduction of the consultory](Super-Physio-main/assets/images/introduction.jpg)
+![background of a therapist threating a knee and a green box in the meddle with the introduction of the consultory](/assets/images/introduction.jpg)
 
 - **Pain section**
 
