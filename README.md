@@ -41,7 +41,7 @@ All this information is divided in three different pages:
     - The footer includes the Openning times so the patient have an idea of wen they can Book the session.
     - It have the links of the social media and will open in a new tab. This is made to engage the patient to the practice.
 
-![image of the footer with the opening times and the logos of the different social media pages](/assets/images/footer.jpg)
+![image of the footer with the opening times and the logos of the different social media pages](/assets/Images/footer.jpg)
 
 - **Therapecutic exercise**
     - In this section we make a description on what is the therapeutic exercise.
