@@ -9,7 +9,7 @@ All this information is divided in three different pages:
 -Services and Prices.
 -Book Now.
 
-![picture of a laptop, table, mobile and computer monitor showing SuperPhysio page](/assets/images/responsive.jpg)
+![picture of a laptop, table, mobile and computer monitor showing SuperPhysio page](assets/images/responsive.jpg)
 
 ## Features
 
