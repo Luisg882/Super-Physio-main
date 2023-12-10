@@ -12,7 +12,7 @@ All this information is divided in three different pages:
 <<<<<<< HEAD
 
 ![picture of a laptop, table, mobile and computer monitor showing SuperPhysio page](/assets/Images/responsive.jpg)
->>>>>>> b32964f8310fc4e24352a41be77aeba66e618abb
+
 
 ## Features
 
@@ -25,7 +25,7 @@ All this information is divided in three different pages:
 
 
 ![naviagtion bar on tablets and desktop devices, navigation bar in mobiles with the menu botton and navigation bar displaying the options after being clicked](/assets/Images/navigation.jpg) 
->>>>>>> b32964f8310fc4e24352a41be77aeba66e618abb
+
 
 **Home**
 
@@ -55,7 +55,7 @@ All this information is divided in three different pages:
 ![image of the footer with the opening times and the logos of the different social media pages](/assets/Images/footer.jpg)
 
 
-- **Therapecutic exercise**
+- **Therapecutic exercis
     - In this section we make a description on what is the therapeutic exercise.
     - We make a enphasis in defiriancete it from the tipical gym work out because the patients tend to decline the service thinking that they are going to make hard work.
     - The image was chosed to demostrate the kind of exercise that is going to be made.
