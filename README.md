@@ -10,8 +10,7 @@ All this information is divided in three different pages:
 -Book Now.
 
 <<<<<<< HEAD
-![picture of a laptop, table, mobile and computer monitor showing SuperPhysio page](/assets/images/responsive.JPG)
-=======
+
 ![picture of a laptop, table, mobile and computer monitor showing SuperPhysio page](/assets/Images/responsive.jpg)
 >>>>>>> b32964f8310fc4e24352a41be77aeba66e618abb
 
@@ -23,9 +22,8 @@ All this information is divided in three different pages:
     - On the left side of the screen are the links that links to the different pages Home, Services and pricing and Book Now.
     - In phone devices the links are waped in a menu button. Wen is cliked it displays the links on the left side underneath the logo and name of the practice.
 
-<<<<<<< HEAD
-![naviagtion bar on tablets and desktop devices, navigation bar in mobiles with the menu botton and navigation bar displaying the options after being clicked](/assets/images/navigation.JPG) 
-=======
+
+
 ![naviagtion bar on tablets and desktop devices, navigation bar in mobiles with the menu botton and navigation bar displaying the options after being clicked](/assets/Images/navigation.jpg) 
 >>>>>>> b32964f8310fc4e24352a41be77aeba66e618abb
 
@@ -35,11 +33,10 @@ All this information is divided in three different pages:
     - In this section we make a breafe introduction of the specialization of the practice so the patience will now exactlly the tipe of practice he is getting to.
     - A background image of a physiotherapist treating a patient giving a visual feed back of the treatment.
 
-<<<<<<< HEAD
-![background of a therapist threating a knee and a green box in the meddle with the introduction of the consultory](Super-Physio-main/assets/images/introduction.JPG)
+
 =======
 ![background of a therapist threating a knee and a green box in the meddle with the introduction of the consultory](/assets/Images/introduction.jpg)
->>>>>>> b32964f8310fc4e24352a41be77aeba66e618abb
+
 
 - **Pain section**
 
@@ -47,21 +44,16 @@ All this information is divided in three different pages:
     - The intention is give a the user a road map on how is going to be the treatment of his injuty starting by releaving the pain.
     - the discription if follow by a image of a man with back pain, that is one of the most frequent reason consult a physiotherapist.
 
-<<<<<<< HEAD
-![explanation of what the pain is and how is going to be treated on the practice follow by a image of a man with back pain](/assets/images/pain-section.JPG)
-=======
+
 ![explanation of what the pain is and how is going to be treated on the practice follow by a image of a man with back pain](/assets/Images/pain-section.jpg)
->>>>>>> b32964f8310fc4e24352a41be77aeba66e618abb
+
 
 - **Footer**
     - The footer includes the Openning times so the patient have an idea of wen they can Book the session.
     - It have the links of the social media and will open in a new tab. This is made to engage the patient to the practice.
 
-<<<<<<< HEAD
-![image of the footer with the opening times and the logos of the different social media pages](/assets/images/footer.JPG)
-=======
 ![image of the footer with the opening times and the logos of the different social media pages](/assets/Images/footer.jpg)
->>>>>>> b32964f8310fc4e24352a41be77aeba66e618abb
+
 
 - **Therapecutic exercise**
     - In this section we make a description on what is the therapeutic exercise.
@@ -69,11 +61,9 @@ All this information is divided in three different pages:
     - The image was chosed to demostrate the kind of exercise that is going to be made.
     - This section works as a follow up of the pain section showing the next step after reliaving the pain.
 
-<<<<<<< HEAD
-![explanation of what the pain is and how is going to be treated on the practice follow by a image of a physiotherapist guiding a elderlly patient on how to perfom a exercise](/assets/images/texercise.JPG)
-=======
+
 ![explanation of what the pain is and how is going to be treated on the practice follow by a image of a physiotherapist guiding a elderlly patient on how to perfom a exercise](/assets/Images/texercise.jpg)
->>>>>>> b32964f8310fc4e24352a41be77aeba66e618abb
+
 
 - **Services and pricing**
     - This page describes all the services that the practice make and the prices
@@ -85,19 +75,15 @@ All this information is divided in three different pages:
     - A table for the price of the therapeutic exercise was made to make it more easy to the patients to understand.
     - Image of a physioterapy session was added for a visual feedback.
 
-<<<<<<< HEAD
-![image of the services and pricing page](/assets/images/services-and-pricing.JPG)
-=======
+
 ![image of the services and pricing page](/assets/Images/services-and-pricing.jpg)
->>>>>>> b32964f8310fc4e24352a41be77aeba66e618abb
+
 
 - **Book now**
     - This page allows the patient to book a session, allowing specify the kind session that will be. There is the option to make a breafe description of the reason for the session so the physioterapist can prepare for the session. The pattien will be asked for full name, email, mobile number and the date wen he wants to be the session.
 
-<<<<<<< HEAD
-![image of the Booking page](/assets/images/booking-page.PNG)
-=======
+
 ![image of the Booking page](/assets/Images/booking-page.png)
->>>>>>> b32964f8310fc4e24352a41be77aeba66e618abb
+
 
 
