@@ -90,7 +90,7 @@ header {
 main {
     flex: 1 0 auto; 
     margin-top: 38px;
-}
+} 
 
 /* Introduction section */
 
@@ -277,7 +277,7 @@ footer h3 {
 }
 
 footer li {
-    color: black;
+    color: #3e7f39;
     font-size: xx-small;
 }
 

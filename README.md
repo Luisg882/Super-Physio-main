@@ -34,7 +34,7 @@ All this information is divided in three different pages:
     - A background image of a physiotherapist treating a patient giving a visual feed back of the treatment.
 
 
-=======
+
 ![background of a therapist threating a knee and a green box in the meddle with the introduction of the consultory](/assets/images/introduction.jpg)
 
 
@@ -86,4 +86,50 @@ All this information is divided in three different pages:
 ![image of the Booking page](/assets/images/booking-page.png)
 
 
+### Features Left to implement ###
+- Block the booking for days and times were the practice is close.
+- Create a user interface were the physioterapy can upload all the documentation from the diagnostic, diferent test and the patient progression.
+- A news section.
+- I attemp to create a list with the different patologies that we treath. I try to be a single list on mobile devices and then split in 2 different for tablets and monitors but it gives accessibility problems and there was bugs on the implementation.
 
+
+## Testing ##
+- Tested in Google Chrome, Firefox, Edge.
+- The web site is resposive in all the browsers.
+- Links for social media open correctilly on a different tabs.
+- The booking validation works and retrive the relevant information to the back end.
+- Navegation links work properly.
+
+### Bugs ###
+
+*** Solved bugs ***
+- Css weren't targeting the nav toggle check making it apper on the screen. The id name on the html was changed to nav-togle-label instead of nav-toggle. Change the name on the HTML documents to nav-toggle
+- Originally the submit button on the center of the form but wen it change the sice of the screen it goes out of the center.
+- Try to center it giving values of vw for the margin on the left but it didn't work in all sices.
+- I decide to leave the button on the left side of the form and increase the sice.
+
+*** Validator Testing ***
+- *** HTML ***
+    - No errors were found on W3C validator.
+- *** CSS ***
+    - No errors found in W3C (Jigsaw) validator
+- *** Accessibility ***
+    - Perform a light house test on all the pages
+        - Home.
+        [lighthouse Home page result: 97 performance, 100 accessibility, 95 best practices, 80 search engine optimization](/assets/images/lighthouse-home.jpg)
+        - Services and price.
+        [lighthouse Services and price page result: 92 performance, 98 accessibility, 95 best practices, 80 search engine optimization](/assets/images/lighthouse-services-and-prices.jpg)
+        - Book now.
+        [lighthouse Book now page result: 100 performance, 100 accessibility, 95 best practices, 80 search engine optimization](/assets/images/lighthouse-book-now.jpg)
+
+### Unfixed Bugs ###
+
+No unfixed bugs
+
+## Deplayment ##
+- The deplayment was done on GitHyb pages as follow:
+    - Open the settings section on the repertory.
+    - Click the option of pages on the left side bar.
+    - Select the master branch in the source section.
+
+Live link [SuoerPhysio](https://luisg882.github.io/Super-Physio-main/index.html).
