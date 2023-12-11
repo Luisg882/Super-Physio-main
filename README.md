@@ -9,9 +9,9 @@ All this information is divided in three different pages:
 -Services and Prices.
 -Book Now.
 
-<<<<<<< HEAD
 
-![picture of a laptop, table, mobile and computer monitor showing SuperPhysio page](/assets/Images/responsive.jpg)
+
+![picture of a laptop, table, mobile and computer monitor showing SuperPhysio page](/assets/images/responsive.jpg)
 
 
 ## Features
@@ -24,7 +24,7 @@ All this information is divided in three different pages:
 
 
 
-![naviagtion bar on tablets and desktop devices, navigation bar in mobiles with the menu botton and navigation bar displaying the options after being clicked](/assets/Images/navigation.jpg) 
+![naviagtion bar on tablets and desktop devices, navigation bar in mobiles with the menu botton and navigation bar displaying the options after being clicked](/assets/images/navigation.jpg) 
 
 
 **Home**
@@ -35,7 +35,7 @@ All this information is divided in three different pages:
 
 
 =======
-![background of a therapist threating a knee and a green box in the meddle with the introduction of the consultory](/assets/Images/introduction.jpg)
+![background of a therapist threating a knee and a green box in the meddle with the introduction of the consultory](/assets/images/introduction.jpg)
 
 
 - **Pain section**
@@ -45,14 +45,14 @@ All this information is divided in three different pages:
     - the discription if follow by a image of a man with back pain, that is one of the most frequent reason consult a physiotherapist.
 
 
-![explanation of what the pain is and how is going to be treated on the practice follow by a image of a man with back pain](/assets/Images/pain-section.jpg)
+![explanation of what the pain is and how is going to be treated on the practice follow by a image of a man with back pain](/assets/images/pain-section.jpg)
 
 
 - **Footer**
     - The footer includes the Openning times so the patient have an idea of wen they can Book the session.
     - It have the links of the social media and will open in a new tab. This is made to engage the patient to the practice.
 
-![image of the footer with the opening times and the logos of the different social media pages](/assets/Images/footer.jpg)
+![image of the footer with the opening times and the logos of the different social media pages](/assets/images/footer.jpg)
 
 
 - **Therapecutic exercis
@@ -62,7 +62,7 @@ All this information is divided in three different pages:
     - This section works as a follow up of the pain section showing the next step after reliaving the pain.
 
 
-![explanation of what the pain is and how is going to be treated on the practice follow by a image of a physiotherapist guiding a elderlly patient on how to perfom a exercise](/assets/Images/texercise.jpg)
+![explanation of what the pain is and how is going to be treated on the practice follow by a image of a physiotherapist guiding a elderlly patient on how to perfom a exercise](/assets/images/texercise.jpg)
 
 
 - **Services and pricing**
@@ -76,14 +76,14 @@ All this information is divided in three different pages:
     - Image of a physioterapy session was added for a visual feedback.
 
 
-![image of the services and pricing page](/assets/Images/services-and-pricing.jpg)
+![image of the services and pricing page](/assets/images/services-and-pricing.jpg)
 
 
 - **Book now**
     - This page allows the patient to book a session, allowing specify the kind session that will be. There is the option to make a breafe description of the reason for the session so the physioterapist can prepare for the session. The pattien will be asked for full name, email, mobile number and the date wen he wants to be the session.
 
 
-![image of the Booking page](/assets/Images/booking-page.png)
+![image of the Booking page](/assets/images/booking-page.png)
 
 
 

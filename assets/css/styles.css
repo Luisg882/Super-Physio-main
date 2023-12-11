@@ -96,7 +96,7 @@ main {
 
 #introduction {
     text-align: center;
-    background-image: url("../Images/manual-therapy.webp") ;
+    background-image: url("../images/manual-therapy.webp") ;
     background-size: 100% 400px;
     height: 400px;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ td, th {
 
 #main-booking {
     margin-top: 20px;
-    background: url("../Images/booking-background.webp") no-repeat center center/cover;
+    background: url("../images/booking-background.webp") no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
