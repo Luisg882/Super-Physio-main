@@ -116,10 +116,13 @@ All this information is divided in three different pages:
 - *** Accessibility ***
     - Perform a light house test on all the pages
         - Home.
+      
         ![lighthouse Home page result: 97 performance, 100 accessibility, 95 best practices, 80 search engine optimization](/assets/images/lighthouse-home.jpg)
         - Services and price.
+          
         ![lighthouse Services and price page result: 92 performance, 98 accessibility, 95 best practices, 80 search engine optimization](/assets/images/lighthouse-services-and-prices.jpg)
         - Book now.
+          
         ![lighthouse Book now page result: 100 performance, 100 accessibility, 95 best practices, 80 search engine optimization](/assets/images/lighthouse-book-now.jpg)
 
 ### Unfixed Bugs ###
