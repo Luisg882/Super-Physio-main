@@ -29,7 +29,7 @@ All this information is divided in three different pages:
 
 
     - Is on the top of the page, it shows the logo and name of the practice on the left side of the screen.
-    - On the left side of the screen are the links to the different pages Home, Services and pricing and Book Now.
+    - On the right side of the screen are the links to the different pages Home, Services and pricing and Book Now.
     - In phone devices the links are wrapped in a menu button. Wen is clicked it displays the links on the left side underneath the logo and name of the practice.
 
 
