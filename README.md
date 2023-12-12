@@ -182,7 +182,7 @@ No unfixed bugs
     - Select the master branch in the source section.
 
 
-Live link [SuoerPhysio](https://luisg882.github.io/Super-Physio-main/index.html).
+Live link [SuperPhysio](https://luisg882.github.io/Super-Physio-main/index.html).
 
 
 ## Media ##
