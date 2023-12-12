@@ -8,9 +8,9 @@ In this website the patients can find the different services provided, the openi
 
 
 All this information is divided in three different pages:
--Home.
--Services and Prices.
--Book Now.
+- Home.
+- Services and Prices.
+- Book Now.
 
 
 
