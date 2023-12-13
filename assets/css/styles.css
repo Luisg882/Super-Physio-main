@@ -1,7 +1,5 @@
-/* imported fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Quicksand:wght@300&display=swap');
 
-/* General styling */
 * {
     padding: 0;
     margin: 0;
@@ -19,9 +17,6 @@ body {
 h1, h2, h3 {
     font-family: "Quicksand", sans-serif;
 }
-
-
-/* Header */
 
 header {
     background-color: #fff;
@@ -45,15 +40,12 @@ header {
     font-family: 'Quicksand', sans-serif;
 }
 
-/* Physioterapy backgorund that covers the header and part of the main */
-
 #physio-background {
     z-index: -1;
     position: absolute;
     width: 100%;
     height: 270px;
 }
-/* Nav Bar button */
 
 #nav-toggle {
     display: none;
@@ -85,14 +77,11 @@ header {
 #nav-toggle:checked + #nav-bar {
     display: block;
 }
-/* Main */
 
 main {
     flex: 1 0 auto; 
     margin-top: 38px;
 } 
-
-/* Introduction section */
 
 #introduction {
     text-align: center;
@@ -123,8 +112,6 @@ main {
     padding-left: 10px;
 }
 
-/* Pain section */
-
 #pain {
     margin-top: 25px;
     margin-bottom: 10px;
@@ -147,8 +134,6 @@ main {
     height: 250px;
 }
 
-/* Therapeutic exercise section */
-
 #exercise {
     margin-top: 10px;
 }
@@ -166,8 +151,6 @@ main {
     width: 100%;
     height: 250px;
 }
-
-/* Services and pricing */
 
 #services-pricing {
     margin-top: 20px;
@@ -266,10 +249,6 @@ td, th {
     border-radius: 5px;
 }
 
-/* Footer */
-
-
-
 footer h3 {
     color:black;
     text-align: center;
@@ -318,12 +297,7 @@ footer ul {
     justify-content: space-evenly;
 }
 
-
-/* Media query for tablets (768 and up) */
-
 @media screen and (min-width: 768px) {
-    /* Header */
-
     #nav-bar {
          display: block;
          position: relative;
@@ -347,14 +321,9 @@ footer ul {
         padding-left: 1rem;
     }
 
-    /* Home: Main section */
-
     #description {
         padding: 60px;
     }
-
-    
-    /* Pain section */
 
     #pain {
         display: flex;
@@ -371,8 +340,6 @@ footer ul {
         height: 275px;
     }
 
-    /* Therapeutic exercise */
-
     #exercise {
         display: flex;
         flex-direction: row-reverse;
@@ -383,8 +350,6 @@ footer ul {
     #texercise-image {
         margin-top: 0px;
     }
-
-    /* Services and Prices: main section */
 
     #diagnostic {
         margin-top: 20px;
@@ -408,8 +373,6 @@ footer ul {
         height: 500px;
     }
 
-    /* Booking: main section */
-
     .inputs {
         width: 60%;;
     }
@@ -418,13 +381,10 @@ footer ul {
         width: 500px;
     }
 
-    
     #type-of-appointment {
         justify-content: space-between;
         flex-direction: row;
     }
-
-    /* Footer */
 
     footer {
         margin-top: 10px;
@@ -460,17 +420,11 @@ footer ul {
 
 }
 
-/* Mediaquery for devices whider than 1200px */
-
 @media screen and (min-width: 1200px) {
-    /* General */
-
     main {
         margin-left: 10%;
         margin-right: 10%;
     }
-    
-    /* Header */
     
     header {
         justify-content: space-around;
@@ -480,9 +434,6 @@ footer ul {
         margin-right: 20vw;
     }
 
-    /* Home: main */
-
-    /*Pain section */
     #pain { 
         justify-content: space-around;
     }
@@ -498,8 +449,6 @@ footer ul {
         flex-shrink: 1;
         height: 400px;
     }
-
-    /*Therapeutic exercise section */
 
     #exercise {
         margin-top: 20px;
@@ -544,9 +493,6 @@ footer ul {
         margin-top: 20px;
     }
 
-
-    /* Footer */
-
     footer {
         margin-left: 5%;
         margin-right: 5%;
@@ -562,19 +508,12 @@ footer ul {
    
 }
 
-/* Madiaquery for devices whider than 1448px */
 
 @media screen and (min-width: 1448px) {
-    /* Home: main */
-
-    /* Introduction section */
-
     #description {
         margin-left: 20vw;
         margin-right: 20vw;
     }
-
-    /* Pain section */
 
     #back-pain {
         height: 450px;
