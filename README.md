@@ -98,7 +98,7 @@ All this information is divided in three different pages:
 
 
 
-- **Services and pricing**
+- ** Services and pricing **
     - This page describes all the services that the practice make and the prices
     - There 3 different services:
         - Diagnostic.
@@ -116,7 +116,7 @@ All this information is divided in three different pages:
 
 
 
-- **Book now**
+- ** Book now **
     - This page allows the patient to book a session, allowing them to specify the kind of session they want. There is the option to make a brief description of the reason for the session so the physiotherapist can prepare for it. The patient will be asked for a full name, email, mobile number and the date when he wants to be in the session.
 
 
