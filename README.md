@@ -184,6 +184,8 @@ No unfixed bugs
 
 Live link [SuperPhysio](https://luisg882.github.io/Super-Physio-main/index.html).
 
+## Credits ##
+- The css basic struture and footer of the page were taken from (Love running)[https://luisg882.github.io/Love-Run/]
 
 ## Media ##
 
