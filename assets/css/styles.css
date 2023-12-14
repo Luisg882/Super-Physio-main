@@ -1,515 +1,595 @@
+/* imported fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Quicksand:wght@300&display=swap');
 
+/* General styling */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Nunito', sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Nunito', sans-serif;
 }
 
-h1, h2, h3 {
-    font-family: "Quicksand", sans-serif;
+h1,
+h2,
+h3 {
+	font-family: "Quicksand", sans-serif;
 }
+
+
+/* Header */
 
 header {
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-basis: 10px;
-    border-bottom: solid;
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	flex-basis: 10px;
+	border-bottom: solid;
 }
 
 #logo {
-    height: 100%;
-    width: 55px;
-    position: absolute;
+	height: 100%;
+	width: 55px;
+	position: absolute;
 }
 
 #title {
-    margin-left: 55px;
-    font-family: 'Quicksand', sans-serif;
+	margin-left: 55px;
+	font-family: 'Quicksand', sans-serif;
 }
+
+/* Physioterapy backgorund that covers the header and part of the main */
 
 #physio-background {
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 270px;
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 270px;
 }
 
+/* Nav Bar button */
+
 #nav-toggle {
-    display: none;
+	display: none;
 }
 
 
 #nav-button {
-    cursor: pointer;
-    padding: 10px;
-    align-self: flex-end;
+	cursor: pointer;
+	padding: 10px;
+	align-self: flex-end;
 }
 
 #nav-bar {
-    position: absolute;
-    display: none;
-    padding: 10px;
-    padding-top: 1rem;
-    width: 100%;
-    margin-top: 38px;
-    background-color: #fff;
-    border-bottom: solid;
+	position: absolute;
+	display: none;
+	padding: 10px;
+	padding-top: 1rem;
+	width: 100%;
+	margin-top: 38px;
+	background-color: #fff;
+	border-bottom: solid;
 }
 
 #nav-bar a {
-    text-decoration: none;
-    color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
-#nav-toggle:checked + #nav-bar {
-    display: block;
+#nav-toggle:checked+#nav-bar {
+	display: block;
 }
+
+/* Main */
 
 main {
-    flex: 1 0 auto; 
-    margin-top: 38px;
-} 
+	flex: 1 0 auto;
+	margin-top: 38px;
+}
+
+/* Introduction section */
 
 #introduction {
-    text-align: center;
-    background-image: url("../images/manual-therapy.webp") ;
-    background-size: 100% 400px;
-    height: 400px;
-    background-repeat: no-repeat;
-    display: flex;
+	text-align: center;
+	background-image: url("../images/manual-therapy.webp");
+	background-size: 100% 400px;
+	height: 400px;
+	background-repeat: no-repeat;
+	display: flex;
 }
 
 #description {
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-top: 84px;
-    margin-bottom: 80px;
-    color: #fff;
-    background-color: rgb(31, 196, 163, 0.75);
-    align-self: center;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 84px;
+	margin-bottom: 80px;
+	color: #fff;
+	background-color: rgb(31, 196, 163, 0.75);
+	align-self: center;
 }
 
 #description h3 {
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
 }
 
 #description hr {
-    padding-left: 10px;
+	padding-left: 10px;
 }
 
+/* Pain section */
+
 #pain {
-    margin-top: 25px;
-    margin-bottom: 10px;
+	margin-top: 25px;
+	margin-bottom: 10px;
 }
 
 #pain-description {
-    color: black;   
-    padding: 5px 5px;
-    text-align: center;
+	color: black;
+	padding: 5px 5px;
+	text-align: center;
 }
 
 #pain p {
-    margin-top: 5px;
-    color: black; 
+	margin-top: 5px;
+	color: black;
 }
 
 #back-pain {
-    margin-top: 15px;
-    width: 100%;
-    height: 250px;
+	margin-top: 15px;
+	width: 100%;
+	height: 250px;
 }
+
+/* Therapeutic exercise section */
 
 #exercise {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
+
 #therapeutic-exercise-description {
-    text-align: center;
-    margin-bottom: 10px;
-    border-radius: 10%;
-    padding: 5px 5px;
+	text-align: center;
+	margin-bottom: 10px;
+	border-radius: 10%;
+	padding: 5px 5px;
 }
 
 #texercise-image {
-    margin-top: 15px;
-    width: 100%;
-    height: 250px;
+	margin-top: 15px;
+	width: 100%;
+	height: 250px;
 }
 
+/* Services and pricing */
+
 #services-pricing {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 #services-pricing hr {
-    border-top: 3px solid rgb(173, 25, 25);
+	border-top: 3px solid rgb(173, 25, 25);
 }
 
 #diagnostic {
-    text-align: center;
+	text-align: center;
 }
 
 #manual-therapy {
-    text-align: center;
+	text-align: center;
+    margin-top: 20px;
 }
 
 #therapeutic-exercise {
-    text-align: center;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
+	text-align: center;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
-#services-pricing   div  h3 {
-    border-bottom: red;
+.service-name {
+    font-size: 120%;
 }
+
+/* Table styling */
 
 #therapeutic-exercise-prices {
-    margin-bottom: 10px;
-    border-collapse: collapse;
-    text-align: center;
+	margin-bottom: 10px;
+	border-collapse: collapse;
+	text-align: center;
 }
 
-td, th {
-    border: solid
+td,
+th {
+	border: solid
 }
 
 #physio {
-    width: 100%;
-    height: 200px;
-    margin-bottom: 0;
+	width: 100%;
+	height: 200px;
+	margin-bottom: 0;
 }
+
+/* Booking */
 
 #main-booking {
-    margin-top: 20px;
-    background: url("../images/booking-background.webp") no-repeat center center/cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	margin-top: 20px;
+	background: url("../images/booking-background.webp") no-repeat center center/cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
+
 #booking-form {
-    padding: 50px 20px;
-    background-color: rgb(60, 60, 60, 0.5);
-    color: #fff;
-    margin: 5px 17px;
-    display: flex;
-    flex-direction: column;
+	padding: 50px 20px;
+	background-color: rgb(60, 60, 60, 0.5);
+	color: #fff;
+	margin: 5px 17px;
+	display: flex;
+	flex-direction: column;
 }
 
 .inputs {
-    margin-bottom: 7px;
-    height: 25px;
+	margin-bottom: 7px;
+	height: 25px;
 }
 
 #type-of-appointment {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 7px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 7px;
 }
 
 .radio-input {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 #patient-description {
-    width: 100%;
-    padding: 10px;
-    margin-right: 5%;
+	width: 100%;
+	padding: 10px;
+	margin-right: 5%;
 }
 
 #submit {
-    background-color:black;
-    color: #f1e5e5;
-    box-shadow: inset 0 0 10px #f8f8f8;
-    height: 40px;
-    width: 200px;
-    border-radius: 5px;
+	background-color: black;
+	color: #f1e5e5;
+	box-shadow: inset 0 0 10px #f8f8f8;
+	height: 40px;
+	width: 200px;
+	border-radius: 5px;
 }
 
+/* Footer */
+
+
 footer h3 {
-    color:black;
-    text-align: center;
-    font-size: small;
+	color: black;
+	text-align: center;
+	font-size: small;
 }
 
 footer li {
-    color: black;
-    font-size: xx-small;
+	color: black;
+	font-size: 60%;
 }
 
 footer li a {
-    color: black;
-    font-size: medium;
+	color: black;
+	font-size: medium;
 }
 
 footer ul {
-    margin: 5px 5px;
+	margin: 5px 5px;
 }
 
 #contact ul {
-    list-style: none;
+	list-style: none;
 }
 
 #time {
-    
-    list-style: none;
+
+	list-style: none;
 }
 
 #time-list {
-    display: flex;
+	display: flex;
 }
 
 #time ul {
-    list-style: none;
+	list-style: none;
 }
 
 #social-media-links {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
 #time-list {
-    justify-content: space-evenly;
+	justify-content: space-evenly;
 }
+
+
+/* Media query for tablets (768 and up) */
 
 @media screen and (min-width: 768px) {
-    #nav-bar {
-         display: block;
-         position: relative;
-         box-shadow: none;
-         width: fit-content;
-         padding-right: 1rem;
-         border-bottom: none;
-         margin-top: 0px;
-    }
+	/* Header */
 
-    #nav-button {
-        display: none;
-    }
+	#nav-bar {
+		display: block;
+		position: relative;
+		box-shadow: none;
+		width: fit-content;
+		padding-right: 1rem;
+		border-bottom: none;
+		margin-top: 0px;
+	}
 
-    #menu {
-        display: flex;
-        list-style: none;
-    }
-    
-    #menu > li {
-        padding-left: 1rem;
-    }
+	#nav-button {
+		display: none;
+	}
 
-    #description {
-        padding: 60px;
-    }
+	#menu {
+		display: flex;
+		list-style: none;
+	}
 
-    #pain {
-        display: flex;
-    }
+	#menu>li {
+		padding-left: 1rem;
+	}
 
-    #pain-description {
-        flex-shrink: 1.6;
-        align-self: center;
-        padding: 23.75px;
-    }
+	/* Home: Main section */
 
-    #back-pain {
-        flex-shrink: 1;
-        height: 275px;
-    }
+	#description {
+		padding: 60px;
+	}
 
-    #exercise {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        margin-bottom: 10px;
-    }
 
-    #texercise-image {
-        margin-top: 0px;
-    }
+	/* Pain section */
 
-    #diagnostic {
-        margin-top: 20px;
-        text-align: center;
-    }
+	#pain {
+		display: flex;
+	}
 
-    #manual-therapy {
-        margin-top: 20px;
-    }
+	#pain-description {
+		flex-shrink: 1.6;
+		align-self: center;
+		padding: 23.75px;
+	}
 
-    #therapeutic-exercise-prices {
-        margin: 0px 100px;
-    }
+	#back-pain {
+		flex-shrink: 1;
+		height: 275px;
+	}
 
-    #physio {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 10%;
-        margin-right: 10%;
-        width: 80%;
-        height: 500px;
-    }
+	/* Therapeutic exercise */
 
-    .inputs {
-        width: 60%;;
-    }
+	#exercise {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-evenly;
+		margin-bottom: 10px;
+	}
 
-    #booking {
-        width: 500px;
-    }
+	#texercise-image {
+		margin-top: 0px;
+	}
 
-    #type-of-appointment {
-        justify-content: space-between;
-        flex-direction: row;
-    }
+	/* Services and Prices: main section */
 
-    footer {
-        margin-top: 10px;
-    }
+	#diagnostic {
+		margin-top: 20px;
+		text-align: center;
+	}
 
-    li {
-        margin-right: 5px;
-    }
+	#manual-therapy {
+		margin-top: 20px;
+	}
 
-    #contact-time {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+	#therapeutic-exercise-prices {
+		margin: 0px 100px;
+	}
 
-    #time-list {
-        display: flex;
-        justify-content: space-around;
-    }
+	#physio {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
+		height: 500px;
+	}
 
-    footer h3 {
-        text-align: center;
-        font-size: medium;
-    }
-    
-    footer li {
-        font-size: small;
-    }
-    
-    footer li a {
-        font-size: x-large;
-    }
+	/* Booking: main section */
+
+	.inputs {
+		width: 60%;
+		;
+	}
+
+	#booking {
+		width: 500px;
+	}
+
+
+	#type-of-appointment {
+		justify-content: space-between;
+		flex-direction: row;
+	}
+
+	/* Footer */
+
+	footer {
+		margin-top: 10px;
+	}
+
+	li {
+		margin-right: 5px;
+	}
+
+	#contact-time {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	#time-list {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	footer h3 {
+		text-align: center;
+		font-size: medium;
+	}
+
+	footer li {
+		font-size: small;
+	}
+
+	footer li a {
+		font-size: x-large;
+	}
 
 }
+
+@media screen and (min-height: 1100px) {
+    /*Home: main */
+ 
+	/*Pain section */
+	#pain {
+		justify-content: space-around;
+	}
+
+	#pain-description {
+		flex-shrink: 1;
+		border-radius: 20%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#back-pain {
+		flex-shrink: 1;
+		height: 400px;
+	}
+
+	/*Therapeutic exercise section */
+
+	#exercise {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	#therapeutic-exercise-description {
+		align-self: center;
+		border-radius: 20%;
+		margin-left: 10px;
+		margin-right: 10px;
+		padding: 20px;
+	}
+
+	#texercise-image {
+		height: 350px;
+	}
+
+}
+
+/* Mediaquery for devices whider than 1200px */
 
 @media screen and (min-width: 1200px) {
-    main {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    
-    header {
-        justify-content: space-around;
-    }
+	/* General */
 
-    #name {
-        margin-right: 20vw;
-    }
+	main {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
 
-    #pain { 
-        justify-content: space-around;
-    }
+	/* Header */
 
-    #pain-description {
-        flex-shrink: 1;
-        border-radius: 20%;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+	header {
+		justify-content: space-around;
+	}
 
-    #back-pain {
-        flex-shrink: 1;
-        height: 400px;
-    }
+	#name {
+		margin-right: 20vw;
+	}
+	
+	/* Services and pricing: main */
 
-    #exercise {
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
+	#services-pricing {
+		margin-top: 50px;
+	}
 
-    #therapeutic-exercise-description {
-        align-self: center;
-        border-radius: 20%;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding: 20px;
-    }
+	#diagnostic {
+		margin-bottom: 50px;
+	}
 
-    #texercise-image {
-        height: 350px;
-    }
+	#manual-therapy {
+		margin-bottom: 50px;
+	}
 
-    #services-pricing {
-        margin-top: 50px;
-    }
+	#therapeutic-exercise-prices {
+		margin-bottom: 50px;
+	}
 
-    #diagnostic {
-        margin-bottom: 50px;
-    }
-    
-    #manual-therapy {
-        margin-bottom: 50px;
-    }
+	#therapeutic-exercise-prices {
+		margin-top: 30px;
+	}
 
-    #therapeutic-exercise-prices {
-        margin-bottom: 50px;
-    }
+	#physio {
+		margin-top: 20px;
+	}
 
-    #therapeutic-exercise-prices {
-        margin-top: 30px;
-    }
 
-    #physio {
-        margin-top: 20px;
-        height: 600px;
-    }
+	/* Footer */
 
-    footer {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+	footer {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 
-    li {
-        margin-right: 10px;
-    }
-    
-    footer ul {
-        margin: 5px 5px;
-    }
-   
+	li {
+		margin-right: 10px;
+	}
+
+	footer ul {
+		margin: 5px 5px;
+	}
+
 }
 
+/* Mediaquery for devices whider than 1448px */
 
 @media screen and (min-width: 1448px) {
-    #description {
-        margin-left: 20vw;
-        margin-right: 20vw;
-    }
+	/* Home: main */
 
-    #back-pain {
-        height: 450px;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+	/* Introduction section */
+
+	#description {
+		margin-left: 20vw;
+		margin-right: 20vw;
+	}
+
+	/* Pain section */
+
+	#back-pain {
+		height: 450px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
 
 }
+
+/* Mediaquery for devices higher than 1100px*/
+

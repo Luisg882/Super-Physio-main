@@ -1,92 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Super Physio. Physioterapy practice on Newcastle Upon tyne, UK. Manula therapy and sports therapy">
-        <meta name="keywords" content="Physioterapy practice, Injury, Newcastle Upon tyne, UK, Rehabilitation, Manual Therapy, Sports therapy, sports">
-        <title>SuperPhysio</title>
-        <link rel="icon" type="image/webp" href="assets/images/logo.webp">
-        <!-- Css Style link -->
-        <link rel="stylesheet" href="assets/css/styles.css">
-    </head>
-    <body>
-        <header>
-            <div id="name">
-                <img src="assets/images/logo.webp" alt="Super Physio logo" id="logo">
-                <h1 id="title">SuperPhysio</h1>
-            </div>
-            <label for="nav-toggle" id="nav-button"><i class="fa-solid fa-bars"></i></label>
-            <input type="checkbox" name="nav-toggle" id="nav-toggle">
-            <nav id="nav-bar">
-                <ul id="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services-and-prices.html">Services and pricing</a></li>
-                    <li><a href="booking.html">Book Now</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main id="main-booking">
-            <section id="booking">
-                <form action="https://formdump.codeinstitute.net" id="booking-form" method="post">
-                    <h2>Book with us <i class="fa-solid fa-heart-circle-plus"></i></h2>
-                    <label for="fname">Fisrt Name:</label>
-                    <input type="text" name="fname" id="fname" class="inputs" required>
-                    <label for="lname">Last Name:</label>
-                    <input type="text" name="lname" id="lname" class="inputs" required>
-                    <label for="mobile">Mobile number: </label>
-                    <input type="number" name="mobile" id="mobile" class="inputs" required>
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" class="inputs" required>
-                    <h3>Type of session:</h3>
-                    <div id="type-of-appointment">
-                        <div class="radio-input">
-                            <input type="radio" name="appointment" class="radio-input" value="diagnostic" id="button-diagnostic" required>
-                            <label for="button-diagnostic">Diagnostic</label>
-                        </div>
-                        <div class="radio-input">
-                            <input type="radio" name="appointment" class="radio-input" value="physiotherapy" id="button-physiotherapy-session">
-                            <label for="button-physiotherapy-session">Physiotherapy</label>
-                        </div>                
-                        <div class="radio-input">
-                            <input type="radio" name="appointment" class="radio-input" value="therapeutic-exercise" id="button-therapeutic-exercise">
-                            <label for="button-therapeutic-exercise">Therapeutic Exercise</label>
-                        </div>
-                    </div>
-                    <label for="booking-date">Apoinment's day:</label>
-                    <input type="date" name="booking-date" id="booking-date" class="inputs" required>
-                    <br>
-                    <label for="patient-description">Give a little description of the reason of your appointment (optional)</label>
-                    <br>
-                    <textarea name="Brief description" id="patient-description" cols="25" rows="5"></textarea>
-                    <br>
-                    <input type="submit" value="Book!" id="submit">
-                </form>
-            </section>
-        </main>
-        <footer>
-            <div id="time">
-                <h3>Opening times <i class="fa-solid fa-clock"></i>:</h3>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Meta data -->
+      <meta
+         name="description"
+         content="Super Physio. Physioterapy practice on Newcastle Upon tyne, UK. Manula therapy and sports therapy"
+         />
+      <meta
+         name="keywords"
+         content="Physioterapy practice, Injury, Newcastle Upon tyne, UK, Rehabilitation, Manual Therapy, Sports therapy, sports"
+         />
+      <!-- Title -->
+      <title>SuperPhysio</title>
+      <!-- Favicon -->
+      <link rel="icon" type="image/webp" href="assets/images/logo.webp" />
+      <!-- Css Style link -->
+      <link rel="stylesheet" href="assets/css/styles.css" />
+   </head>
+   <body>
+      <!-- Header -->
+      <header>
+         <!--Physio Background image that covers the header and part of the main -->
+         <div id="name">
+            <img src="assets/images/logo.webp" alt="Super Physio logo" id="logo" />
+            <h1 id="title">SuperPhysio</h1>
+         </div>
+         <!-- Checkbox button to display the navigation bar-->
+         <label for="nav-toggle" id="nav-button"
+            ><i class="fa-solid fa-bars"></i
+            ></label>
+         <input type="checkbox" name="nav-toggle" id="nav-toggle" />
+         <!-- Navigation bar -->
+         <nav id="nav-bar">
+            <ul id="menu">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="services-and-prices.html">Services and pricing</a></li>
+               <li><a href="booking.html">Book Now</a></li>
+            </ul>
+         </nav>
+      </header>
+      <!-- Main -->
+      <main id="main-booking">
+         <section id="booking">
+            <form
+               action="https://formdump.codeinstitute.net"
+               id="booking-form"
+               method="post"
+               >
+               <h2>Book with us <i class="fa-solid fa-heart-circle-plus"></i></h2>
+               <label for="first-name">Fisrt Name:</label>
+               <input type="text" name="fname" id="fname" class="inputs" required />
+               <label for="last-name">Last Name:</label>
+               <input type="text" name="lname" id="lname" class="inputs" required />
+               <label for="mobile">Mobile number: </label>
+               <input
+                  type="number"
+                  name="mobile"
+                  id="mobile"
+                  class="inputs"
+                  required
+                  />
+               <label for="email">Email:</label>
+               <input type="email" name="email" id="email" class="inputs" required />
+               <h3>Type of session:</h3>
+               <div id="type-of-appointment">
+                  <div class="radio-input">
+                     <input
+                        type="radio"
+                        name="appointment"
+                        class="radio-input"
+                        value="diagnostic"
+                        id="button-diagnostic"
+                        required
+                        />
+                     <label for="button-diagnostic">Diagnostic</label>
+                  </div>
+                  <div class="radio-input">
+                     <input
+                        type="radio"
+                        name="appointment"
+                        class="radio-input"
+                        value="physiotherapy"
+                        id="button-physiotherapy-session"
+                        />
+                     <label for="button-physiotherapy-session">Physiotherapy</label>
+                  </div>
+                  <div class="radio-input">
+                     <input
+                        type="radio"
+                        name="appointment"
+                        class="radio-input"
+                        value="therapeutic-exercise"
+                        id="button-therapeutic-exercise"
+                        />
+                     <label for="button-therapeutic-exercise"
+                        >Therapeutic Exercise</label
+                        >
+                  </div>
+               </div>
+               <label for="booking-date">Apoinment's day:</label>
+               <input
+                  type="date"
+                  name="booking-date"
+                  id="booking-date"
+                  class="inputs"
+                  required
+                  />
+               <br />
+               <label for="patient-description"
+                  >Give a little description of the reason of your appointment
+               (optional)</label
+                  >
+               <br />
+               <textarea
+                  name="Brief description"
+                  id="patient-description"
+                  cols="25"
+                  rows="5"
+                  ></textarea>
+               <br />
+               <input type="submit" value="Book!" id="submit" />
+            </form>
+         </section>
+      </main>
+      <!-- Footer -->
+      <footer>
+         <div id="time">
+            <h3>Opening times <i class="fa-solid fa-clock"></i>:</h3>
             <ul id="time-list">
-                <li><strong>Monday: </strong>8am - 4pm</li>
-                <li><strong>Tuesday: </strong>10am - 6pm</li>
-                <li><strong>Wednesday: </strong>12pm - 6pm</li>
-                <li><strong>Thursday: </strong>8am - 4pm</li>
-                <li><strong>Friday: </strong>8am - 4pm</li>
+                <li><strong>Monday: </strong>8am-4pm</li>
+                <li><strong>Tuesday: </strong>10am-6pm</li>
+                <li><strong>Wednesday: </strong>12pm-6pm</li>
+                <li><strong>Thursday: </strong>8am-4pm</li>
+                <li><strong>Friday: </strong>8am-4pm</li>
             </ul>
-            </div>
-        <div id="social-media">
+         </div>
+         <div id="social-media">
             <ul id="social-media-links">
-                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
-                <li><a href="https://twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
+               <li>
+                  <a
+                     href="https://www.facebook.com/"
+                     target="_blank"
+                     rel="noopener"
+                     aria-label="Visit our Twitter page (opens in a new tab)"
+                     ><i class="fa-brands fa-facebook"></i
+                     ></a>
+               </li>
+               <li>
+                  <a
+                     href="https://www.instagram.com/"
+                     target="_blank"
+                     rel="noopener"
+                     aria-label="Visit our Twitter page (opens in a new tab)"
+                     ><i class="fa-brands fa-square-instagram"></i
+                     ></a>
+               </li>
+               <li>
+                  <a
+                     href="https://twitter.com/"
+                     target="_blank"
+                     rel="noopener"
+                     aria-label="Visit our Twitter page (opens in a new tab)"
+                     ><i class="fa-brands fa-x-twitter"></i
+                     ></a>
+               </li>
             </ul>
-        </div>
-    </footer>
-        <script src="https://kit.fontawesome.com/3cc57474ff.js"
-         crossorigin="anonymous"></script>
-    </body>
+         </div>
+      </footer>
+      <!-- Font awesome link -->
+      <script
+         src="https://kit.fontawesome.com/3cc57474ff.js"
+         crossorigin="anonymous"
+         ></script>
+   </body>
 </html>
