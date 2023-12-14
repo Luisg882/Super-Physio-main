@@ -14,9 +14,6 @@ All this information is divided in three different pages:
 
 
 
-
-
-
 ![picture of a laptop, table, mobile and computer monitor showing SuperPhysio page](/assets/images/responsive.jpg)
 
 
@@ -29,11 +26,8 @@ All this information is divided in three different pages:
 
 
     - Is on the top of the page, it shows the logo and name of the practice on the left side of the screen.
-    - On the left side of the screen are the links to the different pages Home, Services and pricing and Book Now.
-    - In phone devices the links are wrapped in a menu button. Wen is clicked it displays the links on the left side underneath the logo and name of the practice.
-
-
-
+    - On the left side of the screen are the links that links to the different pages Home, Services and pricing and Book Now.
+    - In phone devices the links are waped in a menu button. Wen is cliked it displays the links on the left side underneath the logo and name of the practice.
 
 
 
@@ -46,11 +40,8 @@ All this information is divided in three different pages:
 
 
 - **Introduction**
-    - In this section we make a brief introduction of the specialisation of the practice so the patience will now exactly the type of practice he is getting to.
-    - A background image of a physiotherapist treating a patient giving a visual feedback of the treatment.
-
-
-
+    - In this section we make a breafe introduction of the specialization of the practice so the patience will now exactlly the tipe of practice he is getting to.
+    - A background image of a physiotherapist treating a patient giving a visual feed back of the treatment.
 
 
 
@@ -61,12 +52,9 @@ All this information is divided in three different pages:
 
 - **Pain section**
 
-
-    - This section is made to give a brief description on what pain is and explain how is treated by the therapist.
-    - The intention is to give the user a road map on how is going to be the treatment of his injury starting by relieving the pain.
-    - the description is followed by an image of a man with back pain, that is one of the most frequent reasons to consult a physiotherapist.
-
-
+    - This section is made to give a brefe description on what is pain and explain how is treated by the therapist.
+    - The intention is give a the user a road map on how is going to be the treatment of his injuty starting by releaving the pain.
+    - the discription if follow by a image of a man with back pain, that is one of the most frequent reason consult a physiotherapist.
 
 
 ![explanation of what the pain is and how is going to be treated on the practice follow by a image of a man with back pain](/assets/images/pain-section.jpg)
@@ -86,11 +74,9 @@ All this information is divided in three different pages:
 
 - **Therapeutic exercise
     - In this section we make a description on what is the therapeutic exercise.
-    - We make a emphasis in defiance it from the typical gym workout because the patients tend to decline the service thinking that they are going to make hard work.
-    - The image was chosen to demonstrate the kind of exercise that is going to be made.
-    - This section works as a follow up of the pain section showing the next step after relieving the pain.
-
-
+    - We make a enphasis in defiriancete it from the tipical gym work out because the patients tend to decline the service thinking that they are going to make hard work.
+    - The image was chosed to demostrate the kind of exercise that is going to be made.
+    - This section works as a follow up of the pain section showing the next step after reliaving the pain.
 
 
 ![explanation of what the pain is and how is going to be treated on the practice follow by a image of a physiotherapist guiding a elderly patient on how to perform an exercise](/assets/images/texercise.jpg)
@@ -98,7 +84,7 @@ All this information is divided in three different pages:
 
 
 
-- **Services and pricing**
+- ** Services and pricing **
     - This page describes all the services that the practice make and the prices
     - There 3 different services:
         - Diagnostic.
@@ -117,9 +103,7 @@ All this information is divided in three different pages:
 
 
 - **Book now**
-    - This page allows the patient to book a session, allowing them to specify the kind of session that will be. There is the option to make a brief description of the reason for the session so the physiotherapist can prepare for the session. The patient will be asked for a full name, email, mobile number and the date when he wants to be in the session.
-
-
+    - This page allows the patient to book a session, allowing specify the kind session that will be. There is the option to make a breafe description of the reason for the session so the physioterapist can prepare for the session. The pattien will be asked for full name, email, mobile number and the date wen he wants to be the session.
 
 
 ![image of the Booking page](/assets/images/booking-page.png)
@@ -131,9 +115,7 @@ All this information is divided in three different pages:
 - Block the booking for days and times where the practice is close.
 - Create a user interface where the physiotherapy can upload all the documentation from the diagnostic, different test and the patient progression.
 - A news section.
-- I attempt to create a list with the different pathologies that we treat. I try to be a single list on mobile devices and then split in 2 different ones for tablets and monitors but it gives accessibility problems and there are bugs in the implementation.
-
-
+- I attemp to create a list with the different patologies that we treath. I try to be a single list on mobile devices and then split in 2 different for tablets and monitors but it gives accessibility problems and there was bugs on the implementation.
 
 
 ## Testing ##
@@ -181,12 +163,4 @@ No unfixed bugs
     - Click the option of pages on the left side bar.
     - Select the master branch in the source section.
 
-
 Live link [SuoerPhysio](https://luisg882.github.io/Super-Physio-main/index.html).
-
-
-## Media ##
-
-
-- The image of the background for the Book now page comes from [Freepik](https://www.freepik.com/premium-photo/physiotherapist-giving-shoulder-therapy-woman_7875941.htm)
-- Logo image [Adobe Stock](https://stock.adobe.com/search?k=%22spine+vector%22)
