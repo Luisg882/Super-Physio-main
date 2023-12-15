@@ -12,7 +12,7 @@ All this information is divided into three different pages:
 - Services and Prices.
 - Book Now.
 
-![picture of a laptop, table, mobile and computer monitor showing SuperPhysio page](/assets/images/responsive.jpg)
+![picture of a laptop, tablet, mobile and computer monitor showing SuperPhysio page](/assets/images/responsive.jpg)
 
 ## Features
 
@@ -36,7 +36,7 @@ All this information is divided into three different pages:
     - The intention is to give the user a road map on how is going to be the treatment of his injury, starting by relieving the pain.
     - The description is followed by an image of a man with back pain, which is one of the most frequent reasons to consult a physiotherapist.
 
-![explanation of what the pain is and how is going to be treated in the practice followed by image of a man with back pain](/assets/images/pain-section.jpg)
+![explanation of what the pain is and how is going to be treated in the practice followed by an image of a man with back pain](/assets/images/pain-section.jpg)
 
 - **Footer**
     - The footer includes the Opening times so the patient has an idea of when they can Book the session.
@@ -50,7 +50,7 @@ All this information is divided into three different pages:
     - The image was chosen to demonstrate the kind of exercise that is going to be made.
     - This section works as a follow-up of the pain section showing the next step after relieving the pain.
 
-![explanation of what the pain is and how is going to be treated in the practice followed by image of a physiotherapist guiding elderly patient on how to perform an exercise](/assets/images/theraoeutic-exercise-section.jpg)
+![explanation of what the pain is and how is going to be treated in the practice followed by an image of a physiotherapist guiding an elderly patient on how to perform an exercise](/assets/images/theraoeutic-exercise-section.jpg)
 
 - **Services and pricing**
     - This page describes all the services that the practice make and the prices
@@ -75,12 +75,39 @@ All this information is divided into three different pages:
 - A news section.
 - I attempt to create a list of the different pathologies that we treat. I try to make a single list on mobile devices and then split it into 2 different ones for tablets and monitors but it gives accessibility problems and there are bugs in the implementation.
 
+## Technologies Used ##
+
+**Languages Used**
+- HTML5
+- CSS3
+
+**Libraries and programs used**
+- **Grammarly** - used to correct misspellings and grammar mistakes.
+- **Font Awesome** - to get social media icons.
+- **Google Fonts** - Nunito and Quicksand fonts were used on the website.
+- **Invision** - to make early sketches of the website.
+- **Git** - used as IDE to control and track the project progression.
+
 ## Testing ##
 - Tested in Google Chrome, Firefox, and Edge.
 - The website is responsive in all browsers.
 - Links for social media open correctly on different tabs.
 - The booking validation works and retrieves the relevant information to the back end.
 - Navigation links work properly.
+
+**Functional Testing**
+
+- **Navigation Bar**
+    - All links from the navbar work properly in the same tab.
+    - Menu button on mobile and tablets opens the navbar expands the header and doesn't disrupt the flow of the website.
+
+- **Booking Form**
+    - Validation of the form prevents the patient from submitting the form.
+    - The description section is not included as a validator.
+
+- **Footer**
+    - Social media icons open the pages on different tabs.
+    - Openning times font size increased from mobiles to wider devices.
 
 ### Bugs ###
 
@@ -98,10 +125,15 @@ All this information is divided into three different pages:
 - **Accessibility**
     - Perform a lighthouse test on all the pages
         - Home.
+
         ![lighthouse Home page result: 97 performance, 100 accessibility, 95 best practices, 80 search engine optimization](/assets/images/lighthouse-home.jpg)
+
         - Services and price.
+
         ![lighthouse Services and price page result: 92 performance, 98 accessibility, 95 best practices, 80 search engine optimization](/assets/images/lighthouse-services-and-prices.jpg)
+
         - Book now.
+        
         ![lighthouse Book now page result: 100 performance, 100 accessibility, 95 best practices, 80 search engine optimization](/assets/images/lighthouse-book-now.jpg)
 
 
@@ -119,7 +151,7 @@ No unfixed bugs
 Live link [SuperPhysio](https://luisg882.github.io/Super-Physio-main/index.html).
 
 ## Credits ##
-- The CSS basic structure and footer of the page were taken from (Love running)[https://luisg882.github.io/Love-Run/]
+- The CSS basic structure and footer of the page were taken from [Love running](https://luisg882.github.io/Love-Run/)
 
 ## Media ##
 
