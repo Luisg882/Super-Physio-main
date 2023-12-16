@@ -22,7 +22,6 @@ h3 {
 	font-family: "Quicksand", sans-serif;
 }
 
-
 /* Header */
 
 header {
@@ -61,7 +60,6 @@ header {
 #nav-toggle {
 	display: none;
 }
-
 
 #nav-button {
 	cursor: pointer;
@@ -157,7 +155,6 @@ main {
 	margin-top: 10px;
 }
 
-
 #therapeutic-exercise-description {
 	text-align: center;
 	margin-bottom: 10px;
@@ -230,7 +227,6 @@ th {
 	justify-content: center;
 }
 
-
 #booking-form {
 	padding: 50px 20px;
 	background-color: rgb(60, 60, 60, 0.5);
@@ -271,7 +267,6 @@ th {
 }
 
 /* Footer */
-
 
 footer h3 {
 	color: black;
@@ -321,7 +316,6 @@ footer ul {
 	justify-content: space-evenly;
 }
 
-
 /* Media query for tablets (768 and up) */
 
 @media screen and (min-width: 768px) {
@@ -355,7 +349,6 @@ footer ul {
 	#description {
 		padding: 60px;
 	}
-
 
 	/* Pain section */
 
@@ -422,7 +415,6 @@ footer ul {
 		width: 500px;
 	}
 
-
 	#type-of-appointment {
 		justify-content: space-between;
 		flex-direction: row;
@@ -463,6 +455,8 @@ footer ul {
 	}
 
 }
+
+/* Mediaquery for devices higher than 1100px*/
 
 @media screen and (min-height: 1100px) {
     /*Home: main */
@@ -551,7 +545,6 @@ footer ul {
 		margin-top: 20px;
 	}
 
-
 	/* Footer */
 
 	footer {
@@ -591,5 +584,5 @@ footer ul {
 
 }
 
-/* Mediaquery for devices higher than 1100px*/
+
 
