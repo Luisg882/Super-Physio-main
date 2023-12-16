@@ -497,28 +497,6 @@ footer ul {
 		height: 350px;
 	}
 
-}
-
-/* Mediaquery for devices whider than 1200px */
-
-@media screen and (min-width: 1200px) {
-	/* General */
-
-	main {
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-
-	/* Header */
-
-	header {
-		justify-content: space-around;
-	}
-
-	#name {
-		margin-right: 20vw;
-	}
-	
 	/* Services and pricing: main */
 
 	#services-pricing {
@@ -545,6 +523,28 @@ footer ul {
 		margin-top: 20px;
 	}
 
+}
+
+/* Mediaquery for devices whider than 1200px */
+
+@media screen and (min-width: 1200px) {
+	/* General */
+
+	main {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	/* Header */
+
+	header {
+		justify-content: space-around;
+	}
+
+	#name {
+		margin-right: 20vw;
+	}
+	
 	/* Footer */
 
 	footer {
